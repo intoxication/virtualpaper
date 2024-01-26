@@ -51,13 +51,6 @@ networks:
 
 volumes:
   meilisearch:
-    name: virtualpaper_meilisearch${TEST_VOLUME_ID}
   postgres:
-    name: virtualpaper_postgres${TEST_VOLUME_ID}
   virtualpaper_data:
-    name: virtualpaper_data${TEST_VOLUME_ID}
   virtualpaper_config:
-    name: virtualpaper_config${TEST_VOLUME_ID}
-
-
-
